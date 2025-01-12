@@ -1,10 +1,8 @@
-import logger from '@/lib/logger';
 import { NextPage } from 'next';
 
 
 const AboutPage: NextPage = () => {
-  logger.info('About page rendered');
-  return <h1>About Us</h1>;
+  return  <h3 className='text-center my-8 text-4xl'>About Us</h3>;
 };
 
 export default AboutPage;
